@@ -18,11 +18,6 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
-  schedule:
-    - cron: '25 15 * * 5'
-
-permissions:
-  contents: read
 
 jobs:
   prisma_cloud_iac_scan:
